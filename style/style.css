@@ -1,0 +1,295 @@
+body {
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #1e202b;
+  font-family: "Roboto", sans-serif;
+}
+
+
+input:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.activelink{
+
+    border-color: #0fb4dd;
+  color: #0fb4dd;
+}
+
+
+.w-70{
+  width: 70%;
+}
+
+.w-30{
+width: 30%;
+}
+
+.mt-6{
+  margin-top: 3.75rem;
+}
+
+.w-80{
+  width: 80%;
+}
+
+.w-85{
+  width: 85%;
+}
+
+.w-90{
+  width: 90%;
+}
+
+
+.home {
+  /* height: 100vh; */
+}
+
+.home .homenavbar {
+  z-index: 9999;
+  padding-block: 35px;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.home .homenavbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 6px;
+}
+
+.home .homenavbar a span {
+  font-size: 10px;
+  font-weight: 300;
+  display: block;
+}
+
+.home .homenavbar .nav-item {
+  padding-inline: 10px;
+}
+
+.home .homenavbar .nav-link {
+  font-size: 14px;
+  font-weight: 400;
+  transition: all 0.3s;
+  padding-block: 5px;
+  padding-inline: 14px;
+  border: 2px solid transparent;
+  border-radius: 12px;
+}
+
+/* like active class */
+.home .homenavbar .navbaractive {
+  border-color: #0fb4dd;
+  color: #0fb4dd;
+}
+
+.home .homenavbar .nav-link:hover {
+  padding-block: 5px;
+  padding-inline: 14px;
+  border: 2px solid #0fb4dd;
+  border-radius: 12px;
+  color: #0fb4dd;
+}
+
+/* input */
+
+
+.home .location_input input {
+  background-color: #1e202b;
+  border-color: #1e202b;
+  color: white;
+  font-size: 16px;
+  width: 400;
+}
+
+.home .location_input input::placeholder {
+  color: gray;
+}
+
+.home .location_input button {
+  padding: 12px 32px;
+  background-color: #009ad8;
+  border: 4px solid #1e202b;
+  color: white;
+  z-index: 999;
+}
+
+.home .location_input button:hover{
+background-color: #009AD8;
+border-color: #1E202B;
+}
+
+/* data table */
+
+.home .weather_data {
+  margin-top: 70px;
+}
+
+.home .backgroundimg {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 19%;
+  left: 0;
+  width: 100%;
+  height: 350px;
+  z-index: -1;
+}
+
+/* the layout */
+
+.home .weather_data .today-title {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d303d;
+  color: white;
+  padding-inline: 6px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.home .weather_data .today-title span{
+  color: #A5C1C8;
+}
+
+.home .weather_data .tomorowtitle {
+  text-align: center;
+  background-color: #222530;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.home .weather_data .aftertomorowtitle {
+  text-align: center;
+  background-color: #2d303d;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.home .weather_data .todayweather_data {
+  padding-bottom: 120px;
+  background-color: #323544;
+}
+
+.home .weather_data .todayweather_data .location {
+  padding-top: 22px;
+}
+
+.home .weather_data .todayweather_data .location span {
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 12px;
+  color: gray;
+}
+
+.home .weather_data .todayweather_data .degree {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 16px;
+}
+.home .weather_data .todayweather_data .degree img {
+  display: block;
+}
+.home .weather_data .todayweather_data .degree span {
+  font-size: 90px;
+  font-weight: 700;
+  color: white;
+}
+
+.home .weather_data .statues {
+  padding-top: 22px;
+}
+
+.home .weather_data .statues span {
+  color: #0881ad;
+  padding-left: 16px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.home .weather_data .air_speed {
+  padding-top: 26px;
+}
+
+.home .weather_data .air_speed span {
+  padding-left: 12px;
+  color: #bfc1c8;
+}
+
+.home .weather_data .air_speed span img {
+  padding-right: 6px;
+}
+
+.home .weather_data .tomorowtitle span{
+color: #A5C1C8;
+}
+
+.home .weather_data .mornning_degree span{
+  font-size:24px;
+  font-weight:700;
+  color: white;
+}
+
+.home .weather_data  .night_degree span{
+font-weight:500; 
+  font-size:16px;
+  color: gray;
+}
+
+.home .weather_data .statues span{
+font-size: 14px;
+font-weight: 300;
+}
+
+.tomorow-color{
+background-color: #262936;
+}
+
+.aftertomorow-color{
+background-color:#323544;
+}
+.first{
+
+border-radius: 1.5rem;
+
+}
+
+/* footer  */
+
+.home .footer{
+  background-color: #262936;
+}
+
+.home .footer .footer_input .copyright{
+color: white;
+}
+
+.home .footer .footer_icons a{
+text-decoration: none;
+color: #009AD8;
+border: 1px solid #1E202B  ;
+border-radius: 50%;
+padding: 12px 15px;
+margin-left: 6px;
+background-color:#1E202B ;
+transition: all 0.3s;
+}
+
+.home .footer .footer_icons a:hover{
+color: white;
+background-color: #009AD8;
+}
+
+
+

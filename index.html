@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/all.min.css" />
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="home">
+      <div class="container pb-3 w-80">
+        <!-- navbar -->
+
+        <nav class="homenavbar navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbarlogo navbar-brand" href="#"
+              ><img src="images/logo@2x.png" width="80px" alt="logo"
+            /></a>
+            <a href="#">Weather <span>tagline goes here</span></a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="navbaractive nav-link" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">News</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"
+                    >Live cameras</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Photos</a>
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    href="#"
+                    id="contactlink"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="backgroundimg"></div>
+
+        <!-- input -->
+
+        <div class="location_input input-group m-auto mb-3">
+          <input
+            id="locationinput"
+            type="text"
+            class="form-control position-relative p-3 rounded-pill"
+            placeholder="Find your location..."
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <button
+            class="btn btn-outline-secondary rounded-pill position-absolute top-50 translate-middle-y end-0"
+            type="button"
+            id="locationbtn"
+          >
+            Find
+          </button>
+        </div>
+
+        <!-- layout -->
+
+        <div class="weather_data">
+          <div class="container">
+            <div class="row g-0" id="datacolums"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer  -->
+
+      <div class="footer pt-5 pb-5">
+        <div class="container d-flex flex-wrap justify-content-between">
+          <div class="footer_input w-70">
+            <div
+              class="location_input input-group position-relative w-90 ms-5 mb-3"
+            >
+              <input
+                type="text"
+                class="form-control p-3 rounded-pill"
+                placeholder="Enter your email to subscribe..."
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn btn-outline-secondary rounded-pill position-absolute top-50 translate-middle-y end-0"
+                type="button"
+                id="button-addon2"
+              >
+                Find
+              </button>
+            </div>
+            <span class="copyright fa-copyright ms-5"
+              >Copyright 2014 Company name. Designed by Themezy. All rights
+              reserved</span
+            >
+          </div>
+
+          <div class="footer_icons p-3 w-30">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

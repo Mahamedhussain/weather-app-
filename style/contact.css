@@ -1,0 +1,264 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color:#1E202B;
+}
+a{
+    text-decoration: none;
+}
+
+.gray_color{
+  color: #BFC1C8;
+}
+
+.w-70{
+  width: 70%;
+}
+
+.w-30{
+width: 30%;
+}
+
+.mt-6{
+  margin-top: 3.75rem;
+}
+
+.w-80{
+  width: 80%;
+}
+
+.w-85{
+  width: 85%;
+}
+
+.w-90{
+  width: 90%;
+}
+
+
+.position_element_color{
+    color: #B1C1C8;
+    text-decoration: none;
+    font-size:13px;
+    font-weight:400;
+}
+
+.position_element_color:hover{
+    text-decoration:underline;
+}
+
+.ps-8{
+    padding-left: 8rem;
+}
+
+.pt-6{
+
+    padding-top: 4rem;
+}
+
+.w-90{
+    width: 90%;
+}
+
+/*  contact page  */
+
+.contact .homenavbar {
+  z-index: 9999;
+  padding-block: 35px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.contact .homenavbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 6px;
+}
+
+.contact .homenavbar a span {
+  font-size: 10px;
+  font-weight: 300;
+  display: block;
+}
+
+.contact .homenavbar .nav-item {
+  padding-inline: 10px;
+}
+
+.contact .homenavbar .nav-link {
+  font-size: 14px;
+  font-weight: 400;
+  transition: all 0.3s;
+  padding-block: 5px;
+  padding-inline: 14px;
+  border: 2px solid transparent;
+  border-radius: 12px;
+}
+
+/* like active class */
+.contact .homenavbar .navbaractive {
+  border-color: #0fb4dd;
+  color: #0fb4dd;
+}
+
+.contact .homenavbar .nav-link:hover {
+  padding-block: 5px;
+  padding-inline: 14px;
+  border: 2px solid #0fb4dd;
+  border-radius: 12px;
+  color: #0fb4dd;
+}
+
+
+/* input */
+
+
+
+.contact .location_input .contact_input{
+background-color:#262936;
+border:1px solid #262936;
+}
+
+
+.contact .location_input span{
+    color: white;
+    top: 20px;
+    left: 110px;
+    text-transform:capitalize;
+    font-size: 13px;
+    font-weight: 450;
+}
+
+.contact .contact_body .google_location {
+
+}
+
+.contact .contact_body .google_location .box{
+    
+    height: 340px;
+    width: 82%;
+        background-color: #262936;
+        border-radius: 12px;
+}
+
+.contact .contact_body .google_location .box address{
+   
+margin-left: 15px;
+margin-top: 6px;
+
+}
+
+
+.contact .contact_body .contact_us h2{
+font-size: 36px;
+font-weight: 600;
+}
+
+.contact .contact_body .contact_us{
+  font-size: 14px;
+  font-weight: 350;
+}
+
+.contact .contact_body .contact_us .contact_form input{
+  background-color: transparent;
+     border-color:gray ;
+  color: white;
+}
+
+.contact .contact_body .contact_us .contact_form input::placeholder{
+  color:gray;
+  padding-left: 4px;
+}
+
+.contact .contact_body .contact_us .contact_form input:focus{
+box-shadow: none;
+  border: 1.5px solid #009AD8;
+}
+
+.contact .contact_body .contact_us .contact_form input:hover{
+  border: 1.5px solid #009AD8;
+}
+
+.contact .contact_body .contact_us .contact_form textarea{
+   background-color: transparent;
+   border-color:gray ;
+  color: white; 
+}
+
+.contact .contact_body .contact_us .contact_form textarea::placeholder{
+  color:gray;
+  padding-left: 12px;
+  padding-top: 6px;
+}
+
+.contact .contact_body .contact_us .contact_form textarea:focus{
+box-shadow: none;
+  border: 1.5px solid #009AD8;
+}
+
+.contact .contact_body .contact_us .contact_form textarea:hover{
+  border: 1.5px solid #009AD8;
+}
+
+.contact .contact_body .contact_us .contact_form button{
+color: white;
+background-color: #009AD8;
+border-color: #009AD8;
+padding-inline: 12px;
+}
+
+
+
+
+/* footer  */
+
+.contact .footer{
+  background-color: #262936;
+}
+
+.contact .footer .footer_input input{
+  background-color: #1E202B;
+  border: 1px solid #1E202B;
+  color: white;
+}
+
+.contact .footer .footer_input input::placeholder{
+  color:gray;
+  padding-left: 4px;
+}
+
+.contact .footer .footer_input input:focus{
+  box-shadow: none;
+}
+
+.contact .footer .footer_input button{
+  background-color:#009AD8;
+  border: 1px solid #009AD8;
+  padding: 12px 28px;
+  color: white;
+  z-index: 99999;
+}
+
+.contact .footer .footer_input .copyright{
+color: #BFC1C4;
+}
+
+.contact .footer .footer_icons a{
+text-decoration: none;
+color: #009AD8;
+border: 1px solid #1E202B  ;
+border-radius: 50%;
+padding: 12px 15px;
+margin-left: 6px;
+background-color:#1E202B ;
+transition: all 0.3s;
+}
+
+.contact .footer .footer_icons a:hover{
+color: white;
+background-color: #009AD8;
+}
+
